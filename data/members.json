@@ -66,6 +66,16 @@
     "category": "phd",
     "photo": null,
     "coAdvisor": { "name": "Professor Jessica Zhang", "url": "https://www.meche.engineering.cmu.edu/faculty/zhang-computational-bio-modeling-lab.html" },
+    "bio": [
+      "Darren Kim is a Ph.D. student in Mechanical Engineering at Carnegie Mellon University, jointly advised by Professors Jessica Zhang and Ryan Johnson. His research interests focus on space- and combustion-related problems with applications in both commercial and government settings.",
+      "Before joining CMU, he earned a B.S. in Aerospace Engineering from the University of California, San Diego, with a specialization in Space and Astrodynamics. At UC San Diego, he conducted research in orbital and space mechanics involving multibody systems. He also worked on wing-reinforcement performance testing, machine-learning-based failure prediction, and a twin-axial drone configuration.",
+      "In addition to his research, Darren has written an educational textbook and created educational content.",
+      "Outside the lab, he enjoys fixating on difficult problems for hours on end. Good luck catching him sleeping."
+    ],
+    "education": [
+      "B.S. Aerospace Engineering, University of California, San Diego",
+      "Ph.D. Mechanical Engineering, CMU (current)"
+    ],
     "links": {}
   }
 ]
