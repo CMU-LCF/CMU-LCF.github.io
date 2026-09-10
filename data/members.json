@@ -10,6 +10,10 @@
       "Before joining Carnegie Mellon, he was a scientist and aerospace engineer at the U.S. Naval Research Laboratory in Washington, DC, where he led efforts in high-speed propulsion modeling. He also held a visiting scholar appointment at Stanford University, where he worked on problems at the intersection of high-performance computing, CFD, and chemical kinetics.",
       "Johnson received his Ph.D. from the University of Virginia in 2014 under the supervision of Professor Harsha Chelliah. He is a recipient of the Presidential Early Career Award for Scientists and Engineers (PECASE)."
     ],
+    "education": [
+      "B.S. Aerospace Engineering, UVA, 2010",
+      "Ph.D. Mechanical and Aerospace Engineering, UVA, 2014"
+    ],
     "links": {
       "contact": "contact.html",
       "googleScholar": "https://scholar.google.com/"
