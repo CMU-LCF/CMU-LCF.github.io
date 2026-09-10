@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join / Contact | Laboratory for Computational Fluids and Energy Sciences</title>
+    <meta name="description" content="Join the Laboratory for Computational Fluids and Energy Sciences or get in touch with the group at Carnegie Mellon University." />
+    <link rel="icon" href="assets/logos/lcf-logo.png" type="image/png" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=8" />
+    <script defer src="assets/js/site.js?v=8"></script>
+  </head>
+  <body data-page="contact">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand brand-left">
+          <img src="assets/logos/cmu-seal-white.png" alt="Carnegie Mellon University seal" />
+          <div>
+            <span class="brand-small">Carnegie Mellon University</span>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="members.html">Members</a>
+          <a href="contact.html" class="active">Join/Contact</a>
+        </nav>
+        <div class="brand brand-right"><img class="logo-mark-img" src="assets/logos/lcf-logo.png" alt="Laboratory for Computational Fluids and Energy Sciences logo" /></div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small-hero">
+        <div class="container">
+          <p class="section-kicker">Join / Contact</p>
+          <h1>Work at the intersection of fluid dynamics, combustion, and scientific computing</h1>
+        </div>
+      </section>
+
+      <section class="section section-contrast">
+        <div class="container narrow">
+          <p class="section-kicker">Get in touch</p>
+          <h2>Send us a message</h2>
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/xppzkker" method="POST">
+            <input type="hidden" name="_subject" value="[website_contact_us] New inquiry from the lab website" />
+            <div class="form-row">
+              <label for="cf-name">Name</label>
+              <input id="cf-name" name="name" type="text" required />
+            </div>
+            <div class="form-row">
+              <label for="cf-email">Email</label>
+              <input id="cf-email" name="email" type="email" required />
+            </div>
+            <div class="form-row">
+              <label for="cf-institution">Institution</label>
+              <input id="cf-institution" name="institution" type="text" />
+            </div>
+            <div class="form-row">
+              <label for="cf-joining">Interested in joining?</label>
+              <select id="cf-joining" name="interested_in_joining">
+                <option value="">Select one</option>
+                <option value="Yes - prospective student">Yes — prospective student</option>
+                <option value="Yes - other">Yes — other (postdoc, visiting scholar, collaboration)</option>
+                <option value="No - general inquiry">No — general inquiry</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="cf-interest">Interest in LCF</label>
+              <textarea id="cf-interest" name="interest" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="button primary">Send message</button>
+            <p class="form-status" id="contact-form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img class="footer-brand-img" src="assets/logos/lcf-logo.png" alt="Laboratory for Computational Fluids and Energy Sciences logo" />
+          <p>Laboratory for Computational Fluids and Energy Sciences</p>
+        </div>
+        <div>
+          <p>Carnegie Mellon University</p>
+          <p>Mechanical Engineering</p>
+        </div>
+        <div>
+          <p><a href="https://github.com/CMU-LCF">GitHub organization</a></p>
+          <p>© 2026 LCF</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

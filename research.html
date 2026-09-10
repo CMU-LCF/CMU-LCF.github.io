@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research | Laboratory for Computational Fluids and Energy Sciences</title>
+    <meta name="description" content="Research pillars in high-speed propulsion, reacting flows, numerical methods, and accelerated predictive modeling." />
+    <link rel="icon" href="assets/logos/lcf-logo.png" type="image/png" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=8" />
+    <script defer src="assets/js/site.js?v=8"></script>
+  </head>
+  <body data-page="research">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand brand-left">
+          <img src="assets/logos/cmu-seal-white.png" alt="Carnegie Mellon University seal" />
+          <div>
+            <span class="brand-small">Carnegie Mellon University</span>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="research.html" class="active">Research</a>
+          <a href="projects.html">Projects</a>
+          <a href="publications.html">Publications</a>
+          <a href="members.html">Members</a>
+          <a href="contact.html">Join/Contact</a>
+        </nav>
+        <div class="brand brand-right"><img class="logo-mark-img" src="assets/logos/lcf-logo.png" alt="Laboratory for Computational Fluids and Energy Sciences logo" /></div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small-hero">
+        <div class="container">
+          <p class="section-kicker">Research</p>
+          <h1>Generating design-relevant predictions with acceleration strategies and solution confidence</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="research-overview">
+            <p>
+              Energy conversion processes spans extreme disparities in spatial and temporal scales and couples shocks, chemical reactions, turbulence, interfaces, and geometric complexity. Our work develops the methods and models needed to understand these interactions and use them for predictive design.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container research-stack">
+          <article id="high-speed-propulsion" class="research-card">
+            <div class="research-visual visual-one">
+              <video autoplay muted loop playsinline aria-label="UVA scramjet simulation">
+                <source src="video/web/uva-scramjet.mp4?v=3" type="video/mp4" />
+              </video>
+            </div>
+            <div class="research-body">
+              <p class="section-kicker">01</p>
+              <h2>High-Speed Propulsion</h2>
+              <p>
+                For airbreathing propulsion devices, the challenge is not only generating thrust but maintaining stability and performance across strongly coupled flow, mixing, ignition, and geometric effects. We study ramjets, scramjets, rotating detonation engines, oblique detonation engines, high-speed fuel injection, inlet and combustor interactions, shock-boundary-layer interactions, and propulsion-subsystem coupling.
+              </p>
+              <p>
+                The central problems are limited residence time, fuel mixing, ignition, shocks, unsteadiness, stability, geometry sensitivity, and coupling across engine components. We use resolved simulations to identify how these mechanisms interact and how they influence device performance.
+              </p>
+              <div class="inline-links">
+                <a href="projects.html#high-speed-propulsion-projects">Related projects</a>
+                <a href="publications.html#selected-publications">Selected publications</a>
+              </div>
+            </div>
+          </article>
+
+          <article id="reacting-multiphase-flows" class="research-card reverse">
+            <div class="research-visual visual-two">
+              <video autoplay muted loop playsinline aria-label="Jet in supersonic crossflow simulation">
+                <source src="video/web/jiscf-side.mp4?v=2" type="video/mp4" />
+              </video>
+            </div>
+            <div class="research-body">
+              <p class="section-kicker">02</p>
+              <h2>Reacting &amp; Multiphase Flows</h2>
+              <p>
+                Reacting-flow simulation is a coupled problem involving shocks, finite-rate chemistry, turbulent mixing, thermodynamics, and material interfaces. We study detonation structure, shock-reaction coupling, chemically reacting flows, solid-fuel pyrolysis and combustion, supercritical injection, multicomponent thermodynamics, and transport-dominated mixing phenomena.
+              </p>
+              <p>
+                High-fidelity computation provides access to detailed physics that are difficult to obtain from sparse experimental measurements alone. Our objective is to understand fundamental mechanisms with enough fidelity to support design and prediction.
+              </p>
+              <div class="inline-links">
+                <a href="projects.html#reacting-flows-projects">Related projects</a>
+                <a href="publications.html#selected-publications">Selected publications</a>
+              </div>
+            </div>
+          </article>
+
+          <article id="computational-methods" class="research-card">
+            <div class="research-visual visual-three">
+              <img src="assets/images/computational.png?v=2" alt="Computational workflow: ChemGen chemistry generation, tetrahedral finite elements, and unstructured mesh discretization" />
+            </div>
+            <div class="research-body">
+              <p class="section-kicker">03</p>
+              <h2>Computational Methods</h2>
+              <p>
+                Complicated physics often reveals deficiencies in the numerical methods themselves. Our work develops the underlying algorithms needed for robust, high-fidelity simulation of chemically reacting compressible flow. This includes high-order CFD, finite-volume and discontinuous Galerkin methods, unstructured grids, robust conservative schemes, positivity preservation, entropy stability, and scalable CPU/GPU algorithms.
+              </p>
+              <p>
+                We do not simply run CFD; we develop the numerics that make it possible to maintain stability, conservation, and physical fidelity when strong shocks, turbulence, and chemistry interact.
+              </p>
+              <div class="inline-links">
+                <a href="projects.html#computational-methods-projects">Related projects</a>
+                <a href="publications.html#selected-publications">Selected publications</a>
+              </div>
+            </div>
+          </article>
+
+          <article id="accelerated-predictive-modeling" class="research-card reverse">
+            <div class="research-visual visual-four">
+              <img src="assets/images/compression.png?v=2" alt="Accelerated modeling workflow: neural networks, tensor networks, and flamelet progress variable manifolds" />
+            </div>
+            <div class="research-body">
+              <p class="section-kicker">04</p>
+              <h2>Accelerated Predictive Modeling</h2>
+              <p>
+                High-fidelity simulation is essential for insight and calibration, but it cannot be used at every scale or in every engineering calculation. We therefore investigate methods that preserve important physics while reducing computational cost using GPU computing, reduced and mixed precision, computational chemistry acceleration, machine learning, tensor-network compression, multifidelity modeling, reduced-order models, and adjoint optimization.
+              </p>
+              <p>
+                The longer-term goal is predictive simulation that links scale-resolving computation with robust numerics, modern hardware, and learned reduced models for efficient design and optimization.
+              </p>
+              <div class="inline-links">
+                <a href="projects.html#accelerated-computing-projects">Related projects</a>
+                <a href="publications.html#selected-publications">Selected publications</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img class="footer-brand-img" src="assets/logos/lcf-logo.png" alt="Laboratory for Computational Fluids and Energy Sciences logo" />
+          <p>Laboratory for Computational Fluids and Energy Sciences</p>
+        </div>
+        <div>
+          <p>Carnegie Mellon University</p>
+          <p>Mechanical Engineering</p>
+        </div>
+        <div>
+          <p><a href="https://github.com/CMU-LCF">GitHub organization</a></p>
+          <p>© 2026 LCF</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

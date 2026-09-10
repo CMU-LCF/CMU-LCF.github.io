@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Scramjet fuel injection",
+    "category": "High-Speed Propulsion",
+    "status": "Active Research",
+    "summary": "Investigate compressible mixing and ignition in scramjet flows, including sensitivity to injector placement, wall effects, and shock-induced flow structures.",
+    "tags": ["fuel-injection", "high-speed-propulsion", "scramjet"],
+    "links": {"research": "research.html#high-speed-propulsion"},
+    "relatedPublications": ["https://drryjoh.github.io/pdfs/ching_JCP_viscous.pdf"],
+    "image": "assets/images/project_fuel_injection.png"
+  },
+  {
+    "title": "Agentic AI mesh generation for hypersonic simulations",
+    "category": "Computational Methods",
+    "status": "Research Direction",
+    "summary": "Develop AI-assisted workflows for meshing and discretization of high-speed aerodynamic configurations with complex geometry and physics coupling.",
+    "tags": ["mesh-generation", "ai", "computational-methods"],
+    "links": {"research": "research.html#computational-methods"},
+    "relatedPublications": [],
+    "image": "assets/images/project_ai_mesh.png"
+  },
+  {
+    "title": "Strut-based fuel injection",
+    "category": "High-Speed Propulsion",
+    "status": "Student Project Opportunity",
+    "summary": "Study shock-shear-layer-recirculation coupling, strut geometry dependence, and performance implications for inlet and combustor integration.",
+    "tags": ["fuel-injection", "high-speed-propulsion"],
+    "links": {"research": "research.html#high-speed-propulsion"},
+    "relatedPublications": [],
+    "image": "assets/images/project_strut.png"
+  },
+  {
+    "title": "Adapting chemistry to floating-point precision on GPU hardware",
+    "category": "Accelerated Computing & AI",
+    "status": "Research Direction",
+    "summary": "Explore methods for reduced and mixed precision chemistry integration on GPUs while preserving robust physical behavior and performance.",
+    "tags": ["gpu", "chemistry", "machine-learning"],
+    "links": {"research": "research.html#accelerated-predictive-modeling"},
+    "relatedPublications": [],
+    "image": "assets/images/project_chemgen.png"
+  },
+  {
+    "title": "Embedded ML for partial differential equations",
+    "category": "Accelerated Computing & AI",
+    "status": "Research Direction",
+    "summary": "Develop learned components and surrogate strategies that maintain physical consistency while accelerating large-scale simulation workflows.",
+    "tags": ["machine-learning", "surrogates", "multifidelity"],
+    "links": {"research": "research.html#accelerated-predictive-modeling"},
+    "relatedPublications": [],
+    "image": "assets/images/project_ML_pdes.png"
+  },
+  {
+    "title": "Adjoint-based optimization for chemically reacting flows",
+    "category": "Computational Methods",
+    "status": "Student Project Opportunity",
+    "summary": "Optimize inflow conditions and design variables in reacting systems using differentiable simulation and uncertainty-aware methods.",
+    "tags": ["optimization", "reaction", "uncertainty"],
+    "links": {"research": "research.html#accelerated-predictive-modeling"},
+    "relatedPublications": [],
+    "image": "assets/images/project_adjoint_chemistry.png"
+  },
+  {
+    "title": "Rotating detonation engines",
+    "category": "High-Speed Propulsion",
+    "status": "Active Research",
+    "summary": "Understand wave propagation, detonation chemistry, chamber coupling, and engine performance in rotating detonation combustors.",
+    "tags": ["detonation", "high-speed-propulsion"],
+    "links": {"research": "research.html#high-speed-propulsion"},
+    "relatedPublications": ["https://drryjoh.github.io/pdfs/schwer_rde.pdf"],
+    "image": "assets/images/project_rde_cartoon.png"
+  },
+  {
+    "title": "Detonation wall interaction",
+    "category": "High-Speed Propulsion",
+    "status": "Active Research",
+    "summary": "Develop understanding of wall effects on detonation propagation, both from a cooling perspective and from introduced instabilities.",
+    "tags": ["detonation", "high-speed-propulsion", "wall-cooling"],
+    "links": {"research": "research.html#high-speed-propulsion"},
+    "relatedPublications": [],
+    "image": "assets/images/project_detonation_wall_interaction.png"
+  },
+  {
+    "title": "Solid-fuel ramjet combustion",
+    "category": "Reacting & Multiphase Flows",
+    "status": "Active Research",
+    "summary": "Study surface regression, solid-fuel pyrolysis, and coupled flame structures under demanding high-speed operating conditions.",
+    "tags": ["solid-fuel", "reacting-flows"],
+    "links": {"research": "research.html#reacting-multiphase-flows"},
+    "relatedPublications": ["https://drryjoh.github.io/pdfs/debo_ramjet2.pdf"],
+    "image": "assets/images/project_solid_fuel.png"
+  }
+]

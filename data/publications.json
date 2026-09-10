@@ -1,0 +1,243 @@
+[
+  {
+    "title": "Tensor Train Representation of High-Dimensional Unsteady Flamelet Manifolds",
+    "authors": ["Sinan Demir", "Pierson Guthrey", "Jason Burmark", "Matthew Blomquist", "Brian T. Bojko", "Ryan F. Johnson"],
+    "venue": "Proceedings of the Combustion Institute (arXiv preprint)",
+    "year": 2026,
+    "pdf": "assets/pdfs/proci_TN_fpv.pdf",
+    "tags": ["numerical-methods", "reacting-flows", "machine-learning"],
+    "selected": true,
+    "needs_verification": true
+  },
+  {
+    "title": "Simulation of non-premixed, supersonic combustion using the discontinuous Galerkin method on fully unstructured grids",
+    "authors": ["Cal J. Rising", "Eric J. Ching", "Ryan F. Johnson"],
+    "venue": "Physical Review Fluids",
+    "year": 2026,
+    "pdf": "assets/pdfs/rising_jiscf.pdf",
+    "doi": "https://doi.org/10.1103/pf8v-2fs6",
+    "tags": ["numerical-methods", "reacting-flows", "high-speed-propulsion"],
+    "selected": true,
+    "needs_verification": false
+  },
+  {
+    "title": "Positivity-preserving and entropy-bounded discontinuous Galerkin method for the chemically reacting, compressible Navier–Stokes equations",
+    "authors": ["E. J. Ching", "R. F. Johnson", "S. Burrows", "J. Higgs", "A. D. Kercher"],
+    "venue": "Journal of Computational Physics",
+    "year": 2025,
+    "pdf": "https://drryjoh.github.io/pdfs/ching_JCP_viscous.pdf",
+    "tags": ["numerical-methods", "reacting-flows"],
+    "selected": true,
+    "needs_verification": false
+  },
+  {
+    "title": "Conservative, pressure-equilibrium-preserving discontinuous Galerkin method for compressible, multicomponent flows",
+    "authors": ["E. J. Ching", "R. F. Johnson", "A. D. Kercher"],
+    "venue": "arXiv preprint",
+    "year": 2025,
+    "pdf": "https://drryjoh.github.io/pdfs/ching_JCP_pep.pdf",
+    "tags": ["numerical-methods", "reacting-flows"],
+    "selected": true,
+    "needs_verification": true
+  },
+  {
+    "title": "Flame Structures in a Model Solid Fuel Ramjet with Increasing Reynolds Numbers",
+    "authors": ["Ryan DeBoskey", "David A. Kessler", "Brian Bojko", "Ryan F. Johnson", "Gabriel Goodwin", "Venkateswaran Narayanaswamy"],
+    "venue": "Journal of Propulsion and Power",
+    "year": 2025,
+    "pdf": "https://drryjoh.github.io/pdfs/debo_ramjet2.pdf",
+    "tags": ["solid-fuel", "high-speed-propulsion"],
+    "selected": true,
+    "needs_verification": false
+  },
+  {
+    "title": "Development and Evaluation of Reduced Kinetics Models for 1,3-Butadiene–Air Combustion",
+    "authors": ["Ryan DeBoskey", "David A. Kessler", "Brian Bojko", "Ryan F. Johnson", "Andrew Kercher", "Eric Ching", "Venkateswaran Narayanaswamy"],
+    "venue": "Journal of Propulsion and Power",
+    "year": 2025,
+    "pdf": "https://drryjoh.github.io/pdfs/debo_ramjet.pdf",
+    "tags": ["reacting-flows", "high-speed-propulsion"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Numerical and experimental investigation of flame dynamics in opposed-flow solid fuel burner",
+    "authors": ["R. DeBoskey", "C. Geipel", "D. Kessler", "B. Bojko", "B. Fisher", "R. F. Johnson", "V. Narayanaswamy"],
+    "venue": "Combustion and Flame",
+    "year": 2025,
+    "pdf": "https://drryjoh.github.io/pdfs/debo_oppdiff.pdf",
+    "tags": ["solid-fuel", "reacting-flows"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Conservative discontinuous Galerkin method for supercritical, real-fluid flows",
+    "authors": ["E. J. Ching", "R. F. Johnson"],
+    "venue": "arXiv preprint",
+    "year": 2024,
+    "pdf": "https://drryjoh.github.io/pdfs/ching_INJF_super.pdf",
+    "tags": ["numerical-methods", "reacting-flows"],
+    "selected": false,
+    "needs_verification": true
+  },
+  {
+    "title": "Effect of ozone sensitization on the reflection patterns and stabilization of standing detonation waves induced by curved ramps",
+    "authors": ["E. J. Ching", "R. F. Johnson"],
+    "venue": "arXiv preprint",
+    "year": 2024,
+    "pdf": "https://drryjoh.github.io/pdfs/ching_ODE.pdf",
+    "tags": ["detonation", "reacting-flows"],
+    "selected": false,
+    "needs_verification": true
+  },
+  {
+    "title": "Positivity-preserving and entropy-bounded discontinuous Galerkin method for the chemically reacting, compressible Euler equations. Part I: One dimension",
+    "authors": ["E. J. Ching", "R. F. Johnson", "A. D. Kercher"],
+    "venue": "Journal of Computational Physics",
+    "year": 2023,
+    "pdf": "https://drryjoh.github.io/pdfs/ching_part_1.pdf",
+    "tags": ["numerical-methods", "detonation"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Positivity-preserving and entropy-bounded discontinuous Galerkin method for the chemically reacting, compressible Euler equations. Part II: Multiple dimensions",
+    "authors": ["E. J. Ching", "R. F. Johnson", "A. D. Kercher"],
+    "venue": "Journal of Computational Physics",
+    "year": 2023,
+    "pdf": "https://drryjoh.github.io/pdfs/ching_part_2.pdf",
+    "tags": ["numerical-methods", "detonation"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "High-performance computing for hypersonic simulations: Progress and challenges",
+    "authors": ["D. A. Kessler", "et al.", "R. F. Johnson"],
+    "venue": "Journal of DoD Research and Engineering",
+    "year": 2023,
+    "pdf": "",
+    "tags": ["high-speed-propulsion", "numerical-methods"],
+    "selected": false,
+    "needs_verification": true
+  },
+  {
+    "title": "Regression of solid polymer fuel strands in opposed-flow combustion with gaseous oxidizer",
+    "authors": ["Geipel, C. M.", "Bojko, B. T.", "Pfutzner, C. J.", "Fisher, B. T.", "Johnson, R. F."],
+    "venue": "Proceedings of the Combustion Institute",
+    "year": 2022,
+    "pdf": "https://drryjoh.github.io/pdfs/geipel_proci.pdf",
+    "tags": ["solid-fuel", "reacting-flows"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Numerical investigation of turbulent flame-vortex interaction in premixed cavity stabilized flames",
+    "authors": ["C. J. Rising", "G. B. Goodwin", "R. F. Johnson", "D. A. Kessler", "J. Sosa", "M. Thornton", "K. A. Ahmed"],
+    "venue": "Aerospace Science and Technology",
+    "year": 2022,
+    "pdf": "https://drryjoh.github.io/pdfs/rising_flame_vortex.pdf",
+    "tags": ["reacting-flows", "high-speed-propulsion"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Mean pressure gradient effects on the performance of cavity stabilized flames",
+    "authors": ["M. R. Thornton", "A. J. Morales", "D. M. Smerina", "C. J. Rising", "J. Sosa", "R. F. Johnson", "D. A. Kessler", "G. B. Goodwin", "K. A. Ahmed"],
+    "venue": "Aerospace Science and Technology",
+    "year": 2022,
+    "pdf": "https://drryjoh.github.io/pdfs/morales_pressure_gradient.pdf",
+    "tags": ["reacting-flows", "high-speed-propulsion"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "A Conservative Discontinuous Galerkin Discretization for the Chemically Reacting Navier-Stokes Equations",
+    "authors": ["Ryan F. Johnson", "Andrew D. Kercher"],
+    "venue": "Journal of Computational Physics",
+    "year": 2020,
+    "pdf": "https://drryjoh.github.io/pdfs/Joh_fully_conservative.pdf",
+    "tags": ["numerical-methods", "reacting-flows"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Numerical simulation of two-dimensional flow over a heated carbon surface with coupled heterogeneous and homogeneous reactions",
+    "authors": ["Ryan Frederick Johnson", "H. K. Chelliah"],
+    "venue": "Combustion Theory and Modelling",
+    "year": 2017,
+    "pdf": "https://drryjoh.github.io/pdfs/joh_flat_plate.pdf",
+    "tags": ["reacting-flows"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Flow Statistics and Noise of Ideally Expanded Supersonic Rectangular and Circular Jets",
+    "authors": ["Kamal Viswanath", "Ryan Johnson", "Andrew Corrigan", "K. Kailasanath", "Pablo Mora", "Florian Baier", "Ephraim Gutmark"],
+    "venue": "AIAA Journal",
+    "year": 2017,
+    "pdf": "https://drryjoh.github.io/pdfs/viswanath_nozzle.pdf",
+    "tags": ["high-speed-propulsion", "fuel-injection"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "On the Axisymmetric Counterflow Flame Simulations: Is There an Optimal Nozzle Diameter and Separation Distance to Apply Quasi One-Dimensional Theory?",
+    "authors": ["Ryan F. Johnson", "A. C. VanDine", "G. L. Esposito", "H. K. Chelliah"],
+    "venue": "Combustion Science and Technology",
+    "year": 2015,
+    "pdf": "https://drryjoh.github.io/pdfs/Joh_CF.pdf",
+    "tags": ["reacting-flows", "fuel-injection"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Simulations of an Experimental Centerbody-less Rotating Detonation Combustor",
+    "authors": ["Douglas A. Schwer", "Ryan F. Johnson", "Ephraim Gutmark"],
+    "venue": "AIAA SciTech 2023 Forum",
+    "year": 2023,
+    "pdf": "https://drryjoh.github.io/pdfs/schwer_rde.pdf",
+    "tags": ["detonation", "high-speed-propulsion"],
+    "selected": true,
+    "needs_verification": false
+  },
+  {
+    "title": "Three-Dimensional Compressible Chemically Reacting Computational Fluid Dynamics with Tensor Trains",
+    "authors": ["Sinan Demir", "Ryan F. Johnson", "Brian T. Bojko", "Andrew Corrigan", "David A. Kessler", "Pierson Guthrey", "Jason Burmark", "Samuel Irving"],
+    "venue": "AIAA SciTech 2024 Forum",
+    "year": 2024,
+    "pdf": "https://drryjoh.github.io/pdfs/demir_TT.pdf",
+    "tags": ["numerical-methods", "machine-learning"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Flow Characteristics of a Recirculating Flameless Combustor Configuration",
+    "authors": ["Ryan F. Johnson", "Douglas A. Schwer", "Andrew Kercher", "Andrew T. Corrigan", "Kailas Kailasanath", "Ephraim J. Gutmark", "David A. Kessler"],
+    "venue": "AIAA Aerospace Sciences Meeting",
+    "year": 2018,
+    "pdf": "https://drryjoh.github.io/pdfs/Joh_flameless.pdf",
+    "tags": ["reacting-flows"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "A flamelet progress variable approach for use in a fully conservative discontinuous Galerkin Navier-Stokes solver",
+    "authors": ["Brian T. Bojko", "Ryan F. Johnson", "David A. Kessler"],
+    "venue": "JANNAF",
+    "year": 2022,
+    "pdf": "https://drryjoh.github.io/pdfs/bojko_FPV.pdf",
+    "tags": ["numerical-methods", "reacting-flows"],
+    "selected": false,
+    "needs_verification": false
+  },
+  {
+    "title": "Adjoint Consistency of Spacetime Discontinuous Galerkin Discretizations for Incompressible Flows",
+    "authors": ["Andrew D. Kercher", "Andrew Corrigan", "David A. Kessler", "Ryan F. Johnson", "David R. Mott"],
+    "venue": "AIAA Aviation Forum",
+    "year": 2016,
+    "pdf": "https://drryjoh.github.io/pdfs/kercher_adjoint.pdf",
+    "tags": ["numerical-methods", "optimization"],
+    "selected": false,
+    "needs_verification": false
+  }
+]
