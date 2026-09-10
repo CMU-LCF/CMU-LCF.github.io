@@ -4,6 +4,7 @@
     "role": "Director",
     "affiliation": "Mechanical Engineering, Carnegie Mellon University",
     "photo": "assets/people/ryan-johnson.jpg",
+    "photoPosition": "top",
     "category": "faculty",
     "bio": [
       "Ryan F. Johnson is an associate professor in the Department of Mechanical Engineering at Carnegie Mellon University. His research focuses on predictive computational modeling of propulsion and reacting-flow systems, with interests spanning computational fluid dynamics, chemical kinetics, GPU-enabled high-performance computing, and embedded machine learning. He develops scalable prediction capabilities for complex, multiscale problems, with the goal of enabling accurate simulation of real propulsion and energy devices.",
@@ -24,7 +25,16 @@
     "role": "PhD Student",
     "affiliation": "Carnegie Mellon University",
     "category": "phd",
-    "photo": null,
+    "photo": "assets/people/sierra-martinez.jpg",
+    "bio": [
+      "Sierra is a Ph.D. student in Mechanical Engineering at Carnegie Mellon University, advised by Dr. Ryan Johnson. Her research interests focus on resolving the complex physics of multicomponent chemically reacting flows for power generation and propulsion systems. A central focus is on solution confidence through improved numerical methods and efficient time to solution to minimize the cost, both energy and compute, of predictive simulations.",
+      "She earned a B.S. in Mechanical Engineering in 2024 from the University of Oklahoma, where she worked as a tutor. As a tutor she gained an affinity for teaching. She then worked for Lockheed Martin Aeronautics for two years before joining CMU in 2026. Her work at Lockheed Martin as a stress analyst involved analysis for part changes, repairs, and finite element modeling and analysis.",
+      "Outside engineering, she enjoys exercise of any kind, discussing her controversial food opinions, and letting the performance of her favorite sports teams determine her mood."
+    ],
+    "education": [
+      "B.S. Mechanical Engineering, University of Oklahoma, 2024",
+      "Ph.D. Mechanical Engineering, CMU (current)"
+    ],
     "links": {}
   },
   {

@@ -209,9 +209,10 @@ function renderBioList(title, items) {
 function renderDirectorCard(member) {
   const photo = member.photo || 'assets/people/placeholder.svg';
   const bio = Array.isArray(member.bio) ? member.bio : (member.bio ? [member.bio] : []);
+  const photoPosition = member.photoPosition || 'center';
   return `
     <article class="director-card">
-      <img src="${photo}" alt="${member.name}" />
+      <img src="${photo}" alt="${member.name}" style="object-position: ${photoPosition};" />
       <div class="director-copy">
         <h2>${member.name}</h2>
         <p class="person-role">${member.title ? `${member.role} · ${member.title}` : member.role}</p>
