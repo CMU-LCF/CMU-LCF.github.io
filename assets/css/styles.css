@@ -578,6 +578,41 @@ video { max-width: 100%; display: block; }
   margin-top: 1.25rem;
 }
 
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.4rem;
+  margin-top: 1.5rem;
+}
+
+.logo-grid-sponsors {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 220px));
+}
+
+.logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 130px;
+  padding: 1.5rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease;
+}
+
+.logo-card:hover,
+.logo-card:focus-visible {
+  transform: translateY(-3px);
+}
+
+.logo-card img {
+  max-width: 100%;
+  max-height: 90px;
+  object-fit: contain;
+}
+
 .filter-bar {
   display: grid;
   gap: 1rem;
