@@ -3,7 +3,7 @@
     "name": "Ryan F. Johnson, PhD",
     "role": "Director",
     "affiliation": "Mechanical Engineering, Carnegie Mellon University",
-    "photo": "https://drryjoh.github.io/images/headshottwo.png",
+    "photo": "assets/people/ryan-johnson.jpg",
     "category": "faculty",
     "bio": [
       "Ryan F. Johnson is an associate professor in the Department of Mechanical Engineering at Carnegie Mellon University. His research focuses on predictive computational modeling of propulsion and reacting-flow systems, with interests spanning computational fluid dynamics, chemical kinetics, GPU-enabled high-performance computing, and embedded machine learning. He develops scalable prediction capabilities for complex, multiscale problems, with the goal of enabling accurate simulation of real propulsion and energy devices.",
