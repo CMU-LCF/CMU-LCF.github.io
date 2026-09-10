@@ -468,6 +468,12 @@ video { max-width: 100%; display: block; }
   background: #ddd;
 }
 
+.profile-card:not(.large) img {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+}
+
 .person-avatar {
   width: 82px;
   height: 82px;
