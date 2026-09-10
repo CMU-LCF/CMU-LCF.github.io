@@ -175,6 +175,12 @@ function renderLinks(links) {
   }).join('');
 }
 
+function renderCoAdvisor(member) {
+  if (!member.coAdvisor) return '';
+  const { name, url } = member.coAdvisor;
+  return `<p>Co-advisor: <a href="${url}" target="_blank" rel="noreferrer">${name}</a></p>`;
+}
+
 function renderMemberCard(member) {
   const photo = member.photo || 'assets/people/placeholder.svg';
   return `
@@ -184,6 +190,7 @@ function renderMemberCard(member) {
       <p>${member.role}</p>
       ${member.title ? `<p>${member.title}</p>` : ''}
       <p>${member.affiliation}</p>
+      ${renderCoAdvisor(member)}
       <div class="publication-links">${renderLinks(member.links)}</div>
     </article>
   `;
@@ -199,6 +206,7 @@ function renderDirectorCard(member) {
         <h2>${member.name}</h2>
         <p class="person-role">${member.title ? `${member.role} · ${member.title}` : member.role}</p>
         <p>${member.affiliation}</p>
+        ${renderCoAdvisor(member)}
         ${bio.map((paragraph) => `<p class="director-bio">${paragraph}</p>`).join('')}
         <div class="publication-links">${renderLinks(member.links)}</div>
       </div>

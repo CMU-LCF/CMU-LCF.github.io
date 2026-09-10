@@ -29,6 +29,7 @@
     "affiliation": "Carnegie Mellon University",
     "category": "phd",
     "photo": null,
+    "coAdvisor": { "name": "Professor Christopher McComb", "url": "https://cmudrc.github.io/" },
     "links": {}
   },
   {
@@ -37,6 +38,7 @@
     "affiliation": "Carnegie Mellon University",
     "category": "phd",
     "photo": "assets/people/melik-demirel.jpg",
+    "coAdvisor": { "name": "Professor Francis Ogoke", "url": "https://forgelab-cmu.com/" },
     "bio": [
       "Melik is a Ph.D. student in Mechanical Engineering at Carnegie Mellon University, jointly advised by Professors Francis Ogoke and Ryan Johnson. His research interests center on turbulence problems in additive manufacturing and propulsion systems using simulations and embedded machine learning methods.",
       "Before joining CMU, he earned a B.S. in Aerospace Engineering from Penn State and worked as a Research and Development Engineer at the Penn State Applied Research Laboratory's CIMP-3D. His undergraduate research used computational fluid dynamics to study the effects of unsteady inlet turbulence on airfoil cascade performance, while his work at CIMP-3D focused on modeling and simulation for metal additive manufacturing. These experiences shaped his interest in computational approaches to turbulence across both fields.",
@@ -50,6 +52,7 @@
     "affiliation": "Carnegie Mellon University",
     "category": "phd",
     "photo": null,
+    "coAdvisor": { "name": "Professor Jessica Zhang", "url": "https://www.meche.engineering.cmu.edu/faculty/zhang-computational-bio-modeling-lab.html" },
     "links": {}
   }
 ]
