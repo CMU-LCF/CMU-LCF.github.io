@@ -34,6 +34,16 @@
     "category": "phd",
     "photo": "assets/people/george-tang.jpg",
     "coAdvisor": { "name": "Professor Christopher McComb", "url": "https://cmudrc.github.io/" },
+    "bio": [
+      "George is a Ph.D. student in Mechanical Engineering at Carnegie Mellon University, jointly advised by Professor Ryan Johnson and Professor Chris McComb. His research interests include connecting CFD and computational design together to better link and understand physical systems with mission-driven application.",
+      "George completed his undergraduate degree in Aerospace Engineering at the University of Maryland - College Park and his masters degree in Mechanical Engineering - Research at Carnegie Mellon University. He has worked on multiple engineering projects, which his masters research focused on wheel mobility for the NASA MoonRanger rover mission and also coursework projects ranging from automating FEA meshing workflows to topology optimization of a Formula 1 Racing Car piston through Laser Powder Bed Fusion during his time at CMU before PhD. He is also very motivated in mentoring and teaching students, where he served as a tutor for three courses and a TA for one course during his time at UMD and a Course Assistant for 24-261 2D mechanics during his time at CMU.",
+      "Outside of research and teaching, he enjoys going out to the bars around Pittsburgh, tailgating at football games, reading books, watching documentaries, and playing video games."
+    ],
+    "education": [
+      "B.S. Aerospace Engineering, University of Maryland, College Park",
+      "M.S. Mechanical Engineering (Research), Carnegie Mellon University",
+      "Ph.D. Mechanical Engineering, CMU (current)"
+    ],
     "links": {}
   },
   {
