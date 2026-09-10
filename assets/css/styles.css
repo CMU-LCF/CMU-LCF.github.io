@@ -842,10 +842,35 @@ video { max-width: 100%; display: block; }
 }
 
 @media (max-width: 760px) {
-  .nav-toggle { display: block; }
+  .nav-toggle { display: block; flex-shrink: 0; }
+
+  .brand-left {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  .brand-small {
+    white-space: normal;
+    line-height: 1.25;
+  }
+
+  .brand-left img,
+  .brand-right {
+    flex-shrink: 0;
+  }
+
+  .brand-left img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .brand .logo-mark-img {
+    height: 38px;
+  }
+
   .main-nav {
     position: absolute;
-    top: 78px;
+    top: 100%;
     left: 0;
     right: 0;
     display: none;
