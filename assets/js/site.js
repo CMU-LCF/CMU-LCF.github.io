@@ -196,6 +196,16 @@ function renderMemberCard(member) {
   `;
 }
 
+function renderBioList(title, items) {
+  if (!items || !items.length) return '';
+  return `
+    <h4 class="bio-list-title">${title}</h4>
+    <ul class="bio-list">
+      ${items.map((item) => `<li>${item}</li>`).join('')}
+    </ul>
+  `;
+}
+
 function renderDirectorCard(member) {
   const photo = member.photo || 'assets/people/placeholder.svg';
   const bio = Array.isArray(member.bio) ? member.bio : (member.bio ? [member.bio] : []);
@@ -208,6 +218,8 @@ function renderDirectorCard(member) {
         <p>${member.affiliation}</p>
         ${renderCoAdvisor(member)}
         ${bio.map((paragraph) => `<p class="director-bio">${paragraph}</p>`).join('')}
+        ${renderBioList('Education', member.education)}
+        ${renderBioList('Research Interests', member.researchInterests)}
         <div class="publication-links">${renderLinks(member.links)}</div>
       </div>
     </article>

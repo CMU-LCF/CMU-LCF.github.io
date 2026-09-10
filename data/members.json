@@ -44,6 +44,15 @@
       "Before joining CMU, he earned a B.S. in Aerospace Engineering from Penn State and worked as a Research and Development Engineer at the Penn State Applied Research Laboratory's CIMP-3D. His undergraduate research used computational fluid dynamics to study the effects of unsteady inlet turbulence on airfoil cascade performance, while his work at CIMP-3D focused on modeling and simulation for metal additive manufacturing. These experiences shaped his interest in computational approaches to turbulence across both fields.",
       "Outside the lab, he enjoys producing electronic music and playing tennis."
     ],
+    "education": [
+      "B.S. Aerospace Engineering, Pennsylvania State University",
+      "Ph.D. Mechanical Engineering, CMU (current)"
+    ],
+    "researchInterests": [
+      "Turbulence modeling & simulation",
+      "Additive manufacturing and propulsion systems",
+      "Embedded machine learning methods"
+    ],
     "links": {}
   },
   {

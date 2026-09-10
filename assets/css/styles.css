@@ -765,6 +765,21 @@ video { max-width: 100%; display: block; }
   line-height: 1.7;
 }
 
+.bio-list-title {
+  margin: 1.2rem 0 0.4rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--cmu-red);
+}
+
+.bio-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .project-card .status {
   display: inline-block;
   padding: 0.3rem 0.6rem;
