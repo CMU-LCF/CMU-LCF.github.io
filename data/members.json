@@ -32,7 +32,7 @@
     "role": "PhD Student",
     "affiliation": "Carnegie Mellon University",
     "category": "phd",
-    "photo": null,
+    "photo": "assets/people/george-tang.jpg",
     "coAdvisor": { "name": "Professor Christopher McComb", "url": "https://cmudrc.github.io/" },
     "links": {}
   },
