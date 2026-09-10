@@ -26,6 +26,7 @@
     "affiliation": "Carnegie Mellon University",
     "category": "phd",
     "photo": "assets/people/sierra-martinez.jpg",
+    "photoPosition": "top",
     "bio": [
       "Sierra is a Ph.D. student in Mechanical Engineering at Carnegie Mellon University, advised by Dr. Ryan Johnson. Her research interests focus on resolving the complex physics of multicomponent chemically reacting flows for power generation and propulsion systems. A central focus is on solution confidence through improved numerical methods and efficient time to solution to minimize the cost, both energy and compute, of predictive simulations.",
       "She earned a B.S. in Mechanical Engineering in 2024 from the University of Oklahoma, where she worked as a tutor. As a tutor she gained an affinity for teaching. She then worked for Lockheed Martin Aeronautics for two years before joining CMU in 2026. Her work at Lockheed Martin as a stress analyst involved analysis for part changes, repairs, and finite element modeling and analysis.",
