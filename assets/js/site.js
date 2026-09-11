@@ -228,9 +228,12 @@ function renderDirectorCard(member) {
 }
 
 function renderProjectCard(project) {
+  const media = project.video
+    ? `<video class="project-media" autoplay muted loop playsinline aria-label="${project.title} simulation"><source src="${project.video}" type="video/mp4" /></video>`
+    : (project.image ? `<img src="${project.image}" alt="${project.title}" />` : '');
   return `
     <article class="project-card">
-      ${project.image ? `<img src="${project.image}" alt="${project.title}" />` : ''}
+      ${media}
       <span class="status">${project.status}</span>
       <h3>${project.title}</h3>
       <p>${project.summary}</p>
