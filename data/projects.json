@@ -1,15 +1,5 @@
 [
   {
-    "title": "Taylor Green Vortex",
-    "category": "Computational Methods",
-    "status": "Demonstration Case",
-    "summary": "Compressible turbulence demonstration cases using high order methods.",
-    "tags": ["turbulence", "numerical-methods", "computational-methods"],
-    "links": {"research": "research.html#computational-methods"},
-    "relatedPublications": [],
-    "video": "video/web/tgv.mp4"
-  },
-  {
     "title": "Scramjet fuel injection",
     "category": "High-Speed Propulsion",
     "status": "Active Research",
